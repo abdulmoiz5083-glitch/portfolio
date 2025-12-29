@@ -1,0 +1,45 @@
+
+i{
+    position: absolute;
+    top: 150px;
+    left: 600px;
+    height: 300px;
+    width: 500px;
+   
+}
+.tag{
+    height: 50px;
+    width: 200px;
+    border: 1px solid white;
+    position: absolute;
+    top: 500px;
+    left:690px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+}
+h1{
+    position: relative;
+    top: 1px;
+    display: inline;
+}
+i:active{
+    color: black;
+}
+.icon{
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(90deg, #000000 ,#6b6b6b ,#636262 ,#adadad,#585858 ,#000000);
+    background-size: 400% 400%;
+    animation: revolve 2s linear infinite;
+    border-radius: 50px;
+    height: 300px; width: 30px;
+}
+@keyframes revolve {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
